@@ -202,3 +202,11 @@ If you haven't already configured your wiring during the original installation, 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 This is a modified version of the original BDsensor software. Per GPLv3 requirements, this derivative work is also released under GPLv3.
+
+## Support
+
+If you like my work, buy me a beer!
+
+![Venmo QR Code](images/Venmo.jpg)
+
+Venmo: @William-Hare-311
