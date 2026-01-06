@@ -24,7 +24,7 @@ while ncount < 40:
 ```
 
 This change is essential because:
-- Belt printers (like the IR3v2) use the Y-axis as the belt/print surface
+- Belt printers, like the IR3V2.
 - The calibration must sample different points on the belt surface
 - Z-axis movement would not provide meaningful calibration data on a belt system
 
@@ -147,10 +147,10 @@ If you haven't already configured your wiring during the original installation, 
 
 **Important:** On a belt printer, the calibration works differently:
 
-1. Position the nozzle at the correct height above the belt (approximately 0mm - touching)
+1. Position the nozzle at the correct height above the belt (approximately paper thickness - touching)
 2. Run `BDSENSOR_CALIBRATE`
-3. The sensor will move along the Y-axis taking 40 measurements
-4. Wait for "Calibrate Finished!" message
+3. The Y axis will lift and calibrate the sensor reading as it does
+4. Wait for "Calibrate Finished!" message (No need to save anything)
 
 ### Commands
 
